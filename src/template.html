@@ -1,239 +1,329 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
 
-    <title>Yuriy Stasiv | Web Developer</title>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
-      ScrollReveal({ reset: false });
-    </script>
-    <script src="https://kit.fontawesome.com/586f23898a.js" crossorigin="anonymous"></script>
-  </head>
+  <title>Yuriy Stasiv | Web Developer</title>
 
-  <body>
-    <div id="top"></div>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal({
+      reset: false
+    });
+  </script>
+  <script src="https://kit.fontawesome.com/586f23898a.js" crossorigin="anonymous"></script>
+</head>
 
-    <div id="hero" class="jumbotron">
-      <div class="container">
-        <h1 class="hero-title" class="load-hidden">
-          Hi, my name is <span class="text-color-main">Yuriy Stasiv</span>
-          <br />
-          I'm the Web Developer.
-        </h1>
-        <p class="hero-cta" class="load-hidden">
-          <a class="cta-btn cta-btn--hero" href="#about">Hire Me</a>
-        </p>
+<body>
+  <div id="top"></div>
+
+  <div id="hero" class="jumbotron">
+    <div class="container">
+      <h1 class="hero-title" class="load-hidden">
+        Hi, my name is <span class="text-color-main">Yuriy Stasiv</span>
+        <br />
+        I'm the Web Developer.
+      </h1>
+      <p class="hero-cta" class="load-hidden">
+        <a class="cta-btn cta-btn--hero" href="#about">Hire Me</a>
+      </p>
+    </div>
+  </div>
+
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">
+        About me
+      </h2>
+      <div class="row about-wrapper">
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__image">
+            <img class="img-fluid rounded shadow-lg" height="auto" width="300px" src="./assets/profile.jpg"
+              alt="Profile Image" />
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              I’m a self-driven and highly motivated professional
+              looking for the opportunity to expand my Web Development
+              and JavaScript skills in creating different applications.
+              I am currently studying Master’s Degree programme in
+              Network infrastructure and services - CISCO at the University
+              of Information Technology and Management in Rzeszów.
+            </p>
+            <p class="about-wrapper__info-text">
+              I am enthusiastic and team-oriented person.
+              My strong sides are problem-solving, creativity and
+              focusing on efficiency and constant learning.
+              I am familiar with HTML5, CSS3, Bootstrap 4, JavaScript,
+              React + Redux, Git, NPM, Node.js, Express.js, PostgreSQL.
+
+            </p>
+            <p class="about-wrapper__info-text">
+              I would be glad to use every opportunity to learn more about
+              Web Development in theory and practice and face any challenges
+              to become a better professional in my field.
+            </p>
+            <span class="d-flex mt-3">
+              <a target="_blank" class="cta-btn cta-btn--resume"
+                href="https://drive.google.com/file/d/10RrFI4LgEUllJpGp1RhLWupsj0XtXdiE/view?usp=sharing">
+                View Resume
+              </a>
+            </span>
+          </div>
+        </div>
       </div>
     </div>
+  </section>
 
-    <section id="about">
-      <div class="container">
-        <h2 class="section-title">
-          About me
+  <section id="projects">
+    <div class="container">
+      <div class="project-wrapper">
+        <h2 class="section-title dark-blue-text">
+          Projects
         </h2>
-        <div class="row about-wrapper">
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__image">
-              <img
-                class="img-fluid rounded shadow-lg"
-                height="auto"
-                width="300px"
-                src="./assets/profile.jpg"
-                alt="Profile Image"
-              />
+
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">COVID-19 Tracker</h3>
+              <div>
+                <p class="mb-4">
+                  This application shows current data related to COVID-19(Infected, Recovered, Deaths) globally or by
+                  chosen country, displaying it on the Chart.
+                </p>
+                <p class="mb-4">
+                  The following application was created with React, React Hooks, Material UI and Chart.js.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://yusts.github.io/covid-19-tracker">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/yusts/covid-19-tracker">
+                Source Code
+              </a>
             </div>
           </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__info">
-              <p class="about-wrapper__info-text">
-                I’m a self-driven and highly motivated professional 
-                looking for the opportunity to expand my Web Development 
-                and JavaScript skills in creating different applications. 
-                I am currently studying Master’s Degree programme in 
-                Network infrastructure and services - CISCO at the University 
-                of Information Technology and Management in Rzeszów.
-              </p>
-              <p class="about-wrapper__info-text">
-                I am enthusiastic and team-oriented person. 
-                My strong sides are problem-solving, creativity and 
-                focusing on efficiency and constant learning. 
-                I am familiar with HTML5, CSS3, Bootstrap 4, JavaScript, 
-                React + Redux, Git, NPM, Node.js, Express.js, PostgreSQL.
-                
-              </p>
-              <p class="about-wrapper__info-text">
-                I would be glad to use every opportunity to learn more about 
-                Web Development in theory and practice and face any challenges 
-                to become a better professional in my field.
-              </p>
-              <span class="d-flex mt-3">
-                <a target="_blank" class="cta-btn cta-btn--resume" href="https://drive.google.com/file/d/10RrFI4LgEUllJpGp1RhLWupsj0XtXdiE/view?usp=sharing">
-                  View Resume
-                </a>
-              </span>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/covid.jpg" />
+                </div>
+              </a>
             </div>
           </div>
         </div>
-      </div>
-    </section>
 
-    <section id="projects">
-      <div class="container">
-        <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">
-            Projects
-          </h2>
-
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Face Detection App</h3>
-                <div>
-                  <p class="mb-4">
-                    A Full-stack web application, which allows to detect a face in the uploaded image. The following application works with the use of intelligent Face Detection Model Clarifai API.
-                  </p>
-                  <p class="mb-4">
-                    Such technologies as React, Node, Express.js and PostgreSQL were used to create this web application.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://detface.herokuapp.com/">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/yusts/face-detection-app">
-                  Source Code
-                </a>
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">iTunes Songs</h3>
+              <div>
+                <p class="mb-4">
+                  A simple web application, which allows to search songs by song title, author, song number, lyrics,
+                  catalog or copyright owner.
+                </p>
+                <p class="mb-4">
+                  To create this application I used React and iTunes Search API in order.
+                </p>
               </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/facedetection.jpg" />
-                  </div>
-                </a>
-              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://yusts.github.io/api-itunes-search/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/yusts/api-itunes-search">
+                Source Code
+              </a>
             </div>
           </div>
-          
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">RoboFriends</h3>
-                <div>
-                  <p class="mb-4">
-                    This app contains a list of robots. Search function makes it possible to find a robot by providing his name.
-                  </p>
-                  <p class="mb-4">
-                    The following application was created with the use of React and Redux. Robots pictures on the cards are automatically generated with <a href="http://robohash.org">robohash.org</a>
-                  </p>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/itunes.jpg" />
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://yusts.github.io/robofriends-redux/">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/yusts/robofriends-redux">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/robofriens.jpg" />
-                  </div>
-                </a>
-              </div>
+              </a>
             </div>
           </div>
-
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Background Generator</h3>
-                <div>
-                  <p class="mb-4">
-                    Simple app that allows you to automatically generate gradient color with its <b>RGB</b> color code.
-                  </p>
-                  <p class="mb-4">
-                    To create this application was used HTML, CSS and JavaScript in order.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://yusts.github.io/Background-Generator/">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/yusts/Background-Generator">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/background.jpg" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-
         </div>
-      </div>
-    </section>
 
-    <section id="contact">
-      <div class="container">
-        <h2 class="section-title">
-          Contact
-        </h2>
-        <div class="contact-wrapper">
-          <p class="contact-wrapper__text">
-            <i style="padding-right: 10px;" class="fas fa-mobile-alt"></i>
-            +48 570 837 348
-          </p>
-          <p class="contact-wrapper__text">
-            <i style="padding-right: 10px;" class="fas fa-envelope"></i>
-            stasivyura@gmail.com
-          </p>
-          <a
-            target="_blank"
-            class="cta-btn cta-btn--resume"
-            href="mailto:stasivyura@gmail.com"
-            >Email Me</a
-          >
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Maxton Frontend</h3>
+              <div>
+                <p class="mb-4">
+                  This project was created on the internship in Argonium company to improve my HTML coding and styling.  
+                </p>
+                <p class="mb-4">
+                  To build this project were used HTML, CSS, Sass and jQuery. Also I added OctoberCMS in order to allow client to add new projects on the page.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://yusts.github.io/maxton-internship">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/yusts/maxton-internship">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/maxton.jpg" />
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
 
-    <footer class="footer navbar-static-bottom">
-      <div class="container">
-        <a href="#top" class="back-to-top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Face Detection App</h3>
+              <div>
+                <p class="mb-4">
+                  A Full-stack web application, which allows to detect a face in the uploaded image. The following
+                  application works with the use of intelligent Face Detection Model Clarifai API.
+                </p>
+                <p class="mb-4">
+                  Such technologies as React, Node, Express.js and PostgreSQL were used to create this web application.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://detface.herokuapp.com/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/yusts/face-detection-app">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/facedetection.jpg" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">RoboFriends</h3>
+              <div>
+                <p class="mb-4">
+                  This app contains a list of robots. Search function makes it possible to find a robot by providing his
+                  name.
+                </p>
+                <p class="mb-4">
+                  The following application was created with the use of React and Redux. Robots pictures on the cards
+                  are automatically generated with <a href="http://robohash.org">robohash.org</a>
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://yusts.github.io/robofriends-redux/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/yusts/robofriends-redux">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/robofriens.jpg" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Background Generator</h3>
+              <div>
+                <p class="mb-4">
+                  Simple app that allows you to automatically generate gradient color with its <b>RGB</b> color code.
+                </p>
+                <p class="mb-4">
+                  To create this application was used HTML, CSS and JavaScript in order.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://yusts.github.io/Background-Generator/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/yusts/Background-Generator">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/background.jpg" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">
+        Contact
+      </h2>
+      <div class="contact-wrapper">
+        <p class="contact-wrapper__text">
+          <i style="padding-right: 10px;" class="fas fa-mobile-alt"></i>
+          +48 570 837 348
+        </p>
+        <p class="contact-wrapper__text">
+          <i style="padding-right: 10px;" class="fas fa-envelope"></i>
+          stasivyura@gmail.com
+        </p>
+        <a target="_blank" class="cta-btn cta-btn--resume" href="mailto:stasivyura@gmail.com">Email Me</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer navbar-static-bottom">
+    <div class="container">
+      <a href="#top" class="back-to-top">
+        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+      </a>
+      <div class="social-links">
+        <a style="font-size: 40px;" href="https://www.facebook.com/ystsv" target="_blank">
+          <i class="fab fa-facebook"></i>
         </a>
-        <div class="social-links">
-          <a style="font-size: 40px;" href="https://www.facebook.com/ystsv" target="_blank">
-            <i class="fab fa-facebook"></i>
-          </a>
-          <a style="font-size: 40px;" href="https://github.com/yusts" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-          <a style="font-size: 40px;" href="https://www.linkedin.com/in/yuriy-stasiv-38019a157/" target="_blank">
-            <i class="fab fa-linkedin"></i>
-          </a>
-        </div>
-
-        <hr />
-
+        <a style="font-size: 40px;" href="https://github.com/yusts" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+        <a style="font-size: 40px;" href="https://www.linkedin.com/in/yuriy-stasiv-38019a157/" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
       </div>
-    </footer>
-  </body>
+
+      <hr />
+
+    </div>
+  </footer>
+</body>
+
 </html>
